@@ -1,34 +1,42 @@
 // Varibles for this to work
 
-str = 0 
-int = 0
-con = 0
-wis = 0
-cha = 0
-dex = 0
-hp = 0
-hpm = 0
-pClass=""
-hitdie =""
+var str = 0 
+var int = 0
+var con = 0
+var wis = 0
+var cha = 0
+var dex = 0
+var hp = 0
+var hpm = 0
+var pClass=""
+var hitdie =""
 // Varibles that need math  
 
-acro = 0
-ani = 0
-arca = 0
-hth = 0
-dec = 0
-his = 0
-ins = 0
-intd = 0
-inves = 0
-med = 0
-natu = 0
-perpt = 0
-pref = 0
-pers = 0
-rel = 0
-sligh = 0
-sth = 0
-surv = 0 
+var acro = 0;
+var ani = 0;
+var arca = 0;
+var hth = 0;
+var dec = 0;
+var his = 0;
+var ins = 0;
+var intd = 0;
+var inves = 0;
+var med = 0;
+var natu = 0;
+var perpt = 0;
+ var pref = 0;
+var pers = 0;
+var rel = 0;
+var sligh = 0;
+var sth = 0;
+var surv = 0;
 
 
+// Class hitpoint button
+
+document.getElementById("classConfirm").style.display ="none";
+function showClass(){
+  document.getElementById("classConfirm").style.display = "block";
+}
+
+document.getElementById(classConfButton).addEventListener("click", showClass);
