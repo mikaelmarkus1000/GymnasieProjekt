@@ -39,4 +39,7 @@ function showClass(){
   document.getElementById("classConfirm").style.display = "block";
 }
 
-document.getElementById(classConfButton).addEventListener("click", showClass);
+
+document.getElementById("classConfButton").addEventListener("click", showClass);
+
+
