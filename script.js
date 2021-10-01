@@ -1,6 +1,6 @@
 // Varibles for this to work
 
-var str = 0 ;
+var str = 0;
 var int = 0;
 var con = 0;
 var wis = 0;
