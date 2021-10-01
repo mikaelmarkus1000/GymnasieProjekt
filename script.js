@@ -1,15 +1,15 @@
 // Varibles for this to work
 
-var str = 0 
-var int = 0
-var con = 0
-var wis = 0
-var cha = 0
-var dex = 0
-var hp = 0
-var hpm = 0
-var pClass=""
-var hitdie =""
+var str = 0 ;
+var int = 0;
+var con = 0;
+var wis = 0;
+var cha = 0;
+var dex = 0;
+var hp = 0;
+var hpm = 0;
+var pClass="";
+var hitdie ="";
 // Varibles that need math  
 
 var acro = 0;
