@@ -1,0 +1,32 @@
+h1{
+
+text-align: center;
+}
+
+
+
+li{
+list-style: none;
+width: 25vw;
+height: 25vw;
+background-color: red;
+margin: 1vw;
+;
+}
+
+
+
+
+
+
+
+
+#buttonFlex
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+    }
