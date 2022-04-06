@@ -9,15 +9,24 @@ li{
 list-style: none;
 width: 25vw;
 height: 25vw;
-background-color: red;
 margin: 1vw;
-;
+overflow:hidden;
+font-size: 1vw;
 }
 
+#artifcerID{
+    background-color: gold;
+    font-family: "Times New Roman", Times, serif;
+}
 
+#barbarianID{
+    
+background-color: rgb(233, 87, 2);
+}
 
-
-
+#bardID{
+background-color: plum;
+}
 
 
 
