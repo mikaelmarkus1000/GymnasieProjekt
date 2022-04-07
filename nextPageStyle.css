@@ -7,16 +7,35 @@ text-align: center;
 
 li{
 list-style: none;
-width: 25vw;
-height: 25vw;
+width:  180px;
+height: 180px;
 margin: 1vw;
 overflow:hidden;
-font-size: 1vw;
+font-size: 16px;
+}
+
+#buttonFlex li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#buttonFlex li h1 {
+    font-size: 24px;
+}
+#buttonFlex li p {
+    margin: 2px 8px;
 }
 
 #artifcerID{
     background-color: gold;
-    font-family: "Times New Roman", Times, serif;
+    
+   
+ 
+   
 }
 
 #barbarianID{
