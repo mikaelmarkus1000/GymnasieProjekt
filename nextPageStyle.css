@@ -1,11 +1,24 @@
-h1{
-
-text-align: center;
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("Classes/ASSETS/christopher-paul-high-BMJnVV1MG2w-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    filter: grayscale(1) contrast(0.75) blur(2px);
+    opacity: 0.25;
+    z-index: -1;
 }
 
+h1{
+text-align: center;
+font-family: 'Pirata One', cursive;
+}
 
-
-li{
+a{
 list-style: none;
 width:  180px;
 height: 180px;
@@ -14,38 +27,85 @@ overflow:hidden;
 font-size: 16px;
 }
 
-#buttonFlex li {
+#buttonFlex a{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     align-content: center;
+    cursor: pointer;
+    transition: transform 200ms;
+    text-decoration: none;
+    color: black;
+    border: solid 2px #0002;
 }
 
-#buttonFlex li h1 {
+#buttonFlex a:hover {
+    transform: scale(1.1);
+}
+
+#buttonFlex a h1 {
     font-size: 24px;
 }
-#buttonFlex li p {
+#buttonFlex a p{
     margin: 2px 8px;
 }
-
 #artifcerID{
-    background-color: gold;
-    
-   
- 
-   
+    border-radius: 20px;
+    background-color: #E1C16E44;
 }
 
-#barbarianID{
-    
+#barbarianID{   
+    border-radius: 20px;
 background-color: rgb(233, 87, 2);
 }
 
 #bardID{
+    border-radius: 20px;
 background-color: plum;
 }
+#clericID{
+    border-radius: 20px;
+    background-color: #F9FBFF44;
+}
+#druidID{
+    border-radius: 20px;
+background-color: #59981A44;
+}
+#fighterID{
+    border-radius: 20px;
+background-color: #89512544;
+}
+#monkID{
+    border-radius: 20px;
+    background-color: #87ceeb44;
+}
+#paladinID{
+    border-radius: 20px;
+    background-color: #fef65b44;
+}
+#rangerID{
+    border-radius: 20px;
+    background-color: #00750044;
+}
+#rougeID{
+    border-radius: 20px;
+   background-color:#50545044;
+}
+#sorcererID{
+    border-radius: 20px;
+    background-color: #F7371844;
+}
+#warlockID{
+    border-radius: 20px;
+    background-color: #a43e8a44;
+}
+#wizardID{
+    border-radius: 20px;
+    background-color:#4169E144;
+}
+
 
 
 
