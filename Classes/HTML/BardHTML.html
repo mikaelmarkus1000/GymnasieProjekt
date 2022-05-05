@@ -2,11 +2,122 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/BardStyle.css">
     <title>Document</title>
 </head>
 <body>
+    <h1>Bard</h1>
+    <h2>Ability Scores</h2>
+    <span>I will assume you use point buy, since it's almost allways allowed</span>
+    <ul class="list-group">
+        <li class="list-group-item">Str: <span>(8)</span> </li>
+        <li class="list-group-item">Dex: <span>(15)</span></li>
+        <li class="list-group-item">Con: <span>(13)</span> </li>
+        <li class="list-group-item">Int: <span>(12)</span></li>
+        <li class="list-group-item">Wis: <span>(8)</span></li>
+        <li class="list-group-item">Cha: <span>(15)</span></li>
+
+    </ul>
+    <h2>Race</h2>
+    <span>Half-Elf. Half-Elf is a safe, solid bet for any bard. We’ll put the two flexible ability score increases into Dexterity and Constitution.</span>
     
+    <h2>Skills and Tools</h2>
+    <span>Between the Half-elf racial traits and the Bard skills, we get our choice of any five skills. 5th edition has 18 skills, so we obviously can’t get everything, but fortunately we’ll get two more from our background and three more at 3rd level when we get College of Lore’s Bonus Proficiencies. That’s a total of 10 skill proficiencies, which is a lot to decide. At 1st level you only need to pick 5, but remember that you’ll get two from your Background, and intentionally selecting redundant proficiencies doesn’t help you because you can already pick any skill. <br> <br> Bards also get proficiency in three musical instruments. Bard use instruments as a magic focus for spellcasting, so generally you want something portable like a flute, a lute, or a hand-held harp, but which specific instrument you pick has little or no mechanical impact.</span>
+    <h2>Background</h2>
+    <span>If your party lacks a scout (someone with proficiency in Stealth and Thieves’ Tools), select the Criminal background. This gets you Thieves’ Tools proficiency and some helpful skills. <br> <br>
+
+        If your party lacks a librarian (a wizard, etc.), select the Sage background. Two knowledge skills goes a long way, and with your other open skill proficiencies you’ve got plenty of room to pick up other skills. <br> <br>
+        
+        If your party lacks a Face, there is no one more capable of filling that role than you. Select the Noble background.</span>
+
+<h2>Levels</h2>
+<table class="table">
+    <tr> 
+        <th scope="col">Level</th>
+        <th scope="col">Feat(s) and Features</th>
+        <th scope="col" >Notes and Tactics</th>
+    </tr>
+
+<tr>
+    <th>1</th>
+    <th>
+        <ul>
+            <li>Spellcasting</li>
+            <li>Bardic Inspiration (d6)</li>
+             <li> Cantrips Known:
+                 <ul><li>Prestidigitation</li>
+                <li>Vicious Mockery</li></ul> </li>
+            <li>Spells Known:
+                <ul>
+                    <li>Detect Magic</li>
+                    <li>Healing Word</li>
+                    <li>Heroism</li>
+                    <li>Sleep</li>
+                </ul>
+            </li>    
+            </ul>
+        </th>    
+
+        <th><span>Even at first level, you’re extremely effective. 7 skill proficiencies, a robust and well-rounded list of spells, and you’re good enough with weapons that you can fall back on a bow or a rapier if you absolutely need to. <br> <br>
+
+            With leather armor and 16 Dexterity your AC is just 14, and with 10 hit points you’re very frail, so stay at range and rely on Vicious Mockery. Vicious Mockery won’t do nearly as much damage as a weapon, but the debuff may prevent large amounts of damage to your party.</span> </th>
+    </tr>
+    <tr>
+<th>2</th>
+<th>
+    <ul>
+        <li>Jack of All Trades</li>
+        <li>Song of Rest (d6)</li>
+        <li>New Spells Known: <ul> <li>Dissonant Whispers</li></ul></li>
+    </ul>
+</th>
+<th><span>2nd level increases your utility. Jack of All Trades gives you a bonus to all ability checks, including Initiative check and the rest of the skills which you haven’t managed to pick up. <br> <br>
+ 
+    Song of Rest provides a small, but meaningful boost to your party’s healing resources. At low levels, 1d6 may be the difference between life and death. Of course, allies need to spend hit dice to heal themselves in order to get the bonus die, but even at 2nd level you can manage that twice in a day. You just need to convince your allies that they need to save their second hit die for a second rest even if it means finishing your first short rest at less than full hit points.</span></th>
+
+</tr>
+<th>3</th>
+<th>
+    <ul>
+        <li>Bard College (College of Lore)</li>
+        <li>Bonus Proficiencies</li>
+        <li>Cutting Words</li>
+        <li>Expertise</li>
+        <li>New Spells Known:<ul><li>Invisibility</li> </ul></li>
+    </ul>
+</th>
+<th>
+    <span>This is a fun level. Pick three more skills, then pick two skills in which to gain Expertise. I recommend Perception and two of the role-based skills I recommended above. <br> <br>
+
+        Cutting Words introduces a new usage for Bardic Inspiration. You’re still limited to three uses per day at this level, so you need to be really conservative. I recommend keeping at least one use of Bardic Inspiration in reserve specifically for use with Cutting Words so you can turn save yourself or an ally at the last possible second. <br> <br>        
+        3rd level also brings 2nd-level spells, which opens up a whole new pile of options. If you find that you’re not using one of your 1st-level spells you can retrain it into a 2nd-level spell, but remember that you only have two 2nd-level spell slots so you may not get a lot of mileage out of two 2nd-level spells known.</span>
+</th>
+<tr>
+    <th>4</th>
+    <th><ul>
+        <li>Ability Score Improvement (Charisma 17 -> 19)</li>
+        <li>New Cantrips Known:<ul> <li>Dancing Lights</li></ul></li>
+        <li>New Spells Known: <ul><li>Enhance Ability</li></ul></li>
+    </ul>
+</th>
+<th><span>4th level is a little bit dry, but a Charisma increase does a lot for the Bard. Your weapon attacks are going to start lagging because you’re a point behind the attack vs. AC curve, but 55% chance of hitting is still decent, and a weapon may be more useful than Vicious Mockery in some cases.</span></th>
+</tr>
+<tr>
+    <th>5</th>
+    <th>
+        <ul>
+            <li>Bardic Inspiration (d8)</li>
+            <li>Font of Inspiration</li>
+            <li>New Spells Known: <ul><li>Hypnotic Pattern</li></ul></li>
+        </ul>
+    </th>
+<th><span>5th level is as good for the Bard as it is for anyone else. Your Bardic Inspiration die improves, and with Font of Inspiration you’ve got much more freedom to spend inspiration dice. <br> <br>
+
+    Cantrip damage increases at 5th level, so Vicious Mockery now deals 2d4 damage (avg. 5). Weapon attacks will deal slightly more damage, but I think the added utility of Vicious Mockery is still better.</span></th>
+</tr>
+</table>
 </body>
 </html>

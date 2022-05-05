@@ -1,12 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../CSS/BarbarianStyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <h1>Barbarian</h1>
+    <h2>Ability Scores</h2>
+    <span>I will assume you use point buy, since it's almost allways allowed</span>
+    <ul class="list-group">
+    <li class="list-group-item">Str: <span>(14)</span> </li> 
+    <li class="list-group-item">Dex: <span>(14)</span> </li>        
+    <li class="list-group-item">Con: <span>(15)</span></li>        
+    <li class="list-group-item">Int: <span>(8)</span></li>    
+    <li class="list-group-item">Wis: <span>(10)</span> </li>    
+    <li class="list-group-item">Cha: <span>(10)</span> </li>    
+        </ul>    
+
+     <h2>Race</h2>
+     <span>Half-Orc. Savage Attacks works great with greataxes, and I can’t think of a weapon that says “barbarian” more than a greataxe. It also stacks with Brutal Critical, so you get to roll big piles of d12’s at high levels.</span>
+     <h2>Skills and Tools</h2> 
+     <span>Half-orcs get Intimidation for free, so we’ll pick up Nature and Perception.</span>  
+     <h2>Background</h2>
+     <span>Soldier. Of the limited number of options in the basic rules, Soldier is one of the best options for us. Since we already get Intimidation proficiency, we can replace the redundant proficiency with something else. We’ll keep Athletics, and you can use the replacement proficiency to get Survival. <br> <br>
+
+        Folk Hero works equally well in terms of skills, and you can use your class skill proficiencies to get Animal Handling and Survival to turn both into open skill proficiency slots if you want something not on the Barbarian skill list.</span>
     
-</body>
-</html>
+<table class="table">
+    <thead>
+        <tr> 
+            <th scope="col">Level</th>
+            <th scope="col">Feat(s) and Features</th>
+            <th scope="col" >Notes and Tactics</th>
+        </tr>
+    </thead>
+<tr>
+    <th>1</th> 
+    <th>
+        <ul>
+            <li>Rage</li>
+            <li>Unarmored Defense</li>
+        </ul>
+    </th>
+    <th>
+        For your starting gear, take a greataxe, two handaxes, and the explorer’s pack and javelins. You don’t start with armor, but with 14 Dex and 16 Con Unarmored Defense gives you 15 AC. You might buy yourself a shield, but that will mean putting down your greataxe, and you’ve got 15 hit points for a reason, and Rage will give you damage resistance. <br> <br>
+
+At this level you can only rage twice per day, but at first level adventuring days tend to be short because characters are so fragile, so you should be able to rage in most encounters.
+    </th>
+</tr>
+
+
+<tr>
+    <th>2</th>
+    <th>
+        <ul>
+            <li>Reckless Attack</li>
+            <li>Danger Sense</li>
+        </ul>
+    </th>
+    <th>Reckless Attack is a great ability, but obviously it comes with risks. At this level I recommend only using it in fights against powerful single foes so you’re not taking repeated hits from groups of weak enemies, and even then consider raging at the same time to offset the additional damage you will inevitably take. <br> <br>
+
+        Danger Sense is helpful for mitigating damage from AOE effects which will typically deal damage types not resisted by Rage. <br> <br>
+        
+        At this point you may have enough gold for a suit of Scale Mail, which will net you +1 AC, but after that start saving gold until you can get Half Plate. </th>
+</tr>
+
+<tr>
+    <th>3</th>
+    <th>
+        <ul>
+            <li>Primal Path: Path of the Berserker</li>
+            <li>Frenzy</li>
+        </ul>
+    </th>
+    <th><span>Our first subclass ability is Frenzy. It’s basically just better Rage, but you suffer a level of exhaustion when your rage ends. You don’t want to go past two levels of exhaustion, and now that you have three rages per day that’s a possibility. <br> <br>
+
+        The combination of Frenzy and Reckless Attack is the reason greataxes are appealing for the Barbarian, so when you need to deal a bunch of damage in a hurry you can Rage, Frenzy, and use Reckless Attack to deal a whole bunch of damage in a hurry.  </span> </th>
+</tr>
+
+<tr>
+    <th>4</th>
+    <th>
+        <ul>
+        <li>Ability Score Improvement (Strength 16 -> 18)</li>
+        </ul>
+    </th>
+    <th>More Strength means more attack and more damage.</th>
+</tr>
+
+<tr>
+    <th>5</th>
+    <th>
+        <ul>    
+            <li>Extra Attack</li>
+            <li>Fast Movement</li>
+        </ul>
+<th>th level is an important milestone in 5e. Martial classes get Extra Attack, which roughly doubles your damage output. 5th level also requires proportionately more encounters worth of experience before you gain another level than any other level, so you’re going to spend a lot of time at 5th level. <br> <br>
+
+    Between Frenzy’s Bonus Action attack and Extra Attack, you get three attacks with Advantage (Reckless Attack) for a total of 6 d20 rolls, giving your probability of more than 26% to roll at least one natural 20, and every time you crit you’re dealing 3d12+Str damage, which feels really satisfying. </th>
+    </th>
+</tr>
+
+<tr>
+    <th>6</th>
+    <th>
+        <ul>
+            <li>Mindless Rage</li>
+        </ul>
+
+    </th>
+    <th>	
+        Attacking a barbarian mentally is the easiest way to shut them down, so Mindless Rage is a significant defensive buff.</th>
+</tr>
+<tr>
+    <th>7</th>
+    <th>
+        <ul>
+            <li>Feral Instinct</li>
+        </ul>
+    </th>
+    <th>	
+        Going first feels great. It’s usually not very important for barbarians because you don’t need to cast a spell to alter the layout of an encounter or something, but it’s still really nice.</th>
+</tr>
+<tr>
+    <th>8</th>
+    <th><ul>
+            <li>Ability Score Improvement (Strength 18 -> 20)</li>
+            
+        </ul>
+    </th>
+    <th>20 Strength means that you’re as strong as you’ll be until you reach 20th level or find a really nice magic item.</th>  
+</tr>
+<tr>
+    <th>9</th>
+    <th>
+        <ul>
+            <li>Brutal Critical (1 die)</li>
+            <li>Rage Damage +3</li>
+        </ul>
+    <th>Adding another d12 on crits adds roughly 1.9 extra damage per turn (assuming Reckless Attack and three attacks). On average that’s not much, but it feels very satisfying to roll 3d12 on a critical hit.</th>
+</th>
+</tr>
+
+<tr>
+    <th>10</th>
+    <th>
+        <ul>
+            <li>Intimidating Presence</li>
+        </ul>
+    </th>
+    <th>Intimidating Presence is rarely useful because it eats your entire action. You could still Frenzy and attack as a bonus action, but I think the most likely use case for this is to begin a Rage solely for the purpose of chasing someone around and screaming at them.</th>
+</tr>
+</table>
